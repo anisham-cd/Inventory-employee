@@ -60,8 +60,10 @@ function verifySignupToken(request, response) {
                 });
                 if (loggedInUser) {
                     if (loggedInUser.verificationToken === verificationToken) {
+                        delete loggedInUser.verificationToken;
+                        delete loggedInUser.link;
                         return response.send(
-                            responseBuilder.buildSucessResponse("Registration link verified!")
+                            responseBuilder.buildSucessResponse(loggedInUser)
                         );
                     } else {
                         response.send(responseBuilder.buildFailureResponse("Invalid registration link/user already registered !"));
@@ -91,7 +93,7 @@ function createUser(request, response) {
         response.send(responseBuilder.buildFailureResponse("User with email already exists!"));
     } else {
         let verificationToken = encodeURIComponent(encryption.encrypt(JSON.stringify({ id: id, role: newUser.role })));
-        Object.assign(newUser, { id: id, verificationToken: verificationToken, role: newUser.role, link: `http://localhost:3005/api/v1/user/verifySignupToken?token=${verificationToken}` });
+        Object.assign(newUser, { id: id, verificationToken: verificationToken, role: newUser.role, link: `http://localhost:3000/signupVerify?token=${verificationToken}` });
         users.push(newUser);
         jsonFile.writeJsonFile(jsonPath, users);
         return response.send(

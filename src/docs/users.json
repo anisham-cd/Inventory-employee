@@ -6,13 +6,5 @@
     "email": "mohammeds@clouddestinations.com",
     "password": "$2a$10$U3cWhZsQIWMkmJ6lm25f7eYjqnfcLeIEkZCCpytHP4UNaBR1AOB6C",
     "hobby": "Tech"
-  },
-  {
-    "name": "Saif",
-    "phoneNumber": "9700143508",
-    "email": "mohammeds1@clouddestinations.com",
-    "password": "$2a$10$LsbCpZ9Xz9RBoqm.lcATheTtTdD2/fhB.Lg2Y.04dyT6ANnxDB026",
-    "hobby": "Tech1234",
-    "id": 2
   }
 ]
