@@ -1,20 +1,9 @@
-function success(data){
-    let data_={
-        "code":202,
-        "message":"The request was succsessfull",
-        "data":data
-    }
-    return data_
-}
-function error(msg){
-    let data_={
-        "code":400,
-        "message":msg
-    }
-    return data_
+function buildSucessResponse(data) {
+  return { code: 200, message: "Request was sucessfull", data: data };
 }
 
-module.exports={
-    success,
-    error
+function buildFailureResponse(errorMessage) {
+  return { code: 400, message: "Request was unsucessfull", errorMessage: errorMessage };
 }
+
+module.exports = { buildSucessResponse, buildFailureResponse };
