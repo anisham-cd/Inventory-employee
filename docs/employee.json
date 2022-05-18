@@ -1,0 +1,126 @@
+[
+  {
+    "name": "Marina joi",
+    "dob": "04-04-1989",
+    "password": "mandatory",
+    "mobile": 9654455880,
+    "email": "marinajo@gmail.com",
+    "hobby": "Optional",
+    "shopName": "pj shop",
+    "shopId": "S008",
+    "role": "Hr",
+    "id": 1
+  },
+  {
+    "name": "Marina",
+    "dob": "04-04-1989",
+    "password": "mandatory",
+    "mobile": 9654455880,
+    "email": "marina@gmail.com",
+    "hobby": "Optional",
+    "shopId": "S008",
+    "role": "Hr",
+    "id": 2
+  },
+  {
+    "name": "joi",
+    "dob": "04-04-1989",
+    "password": "mandatory",
+    "mobile": 9654455880,
+    "email": "jo@gmail.com",
+    "hobby": "Optional",
+    "godownId": "G001",
+    "role": "Hr",
+    "id": 3
+  },
+  {
+    "name": "Sharun",
+    "dob": "04-04-1989",
+    "mobile": 9654455880,
+    "email": "marinajo@gmail.com",
+    "hobby": "Optional",
+    "shopId": "S008",
+    "role": "User",
+    "id": 4
+  },
+  {
+    "name": "Sharun",
+    "dob": "04-04-1989",
+    "mobile": 9654455880,
+    "email": "marinajo@gmail.com",
+    "hobby": "Optional",
+    "shopId": "S008",
+    "role": "user",
+    "id": 5
+  },
+  {
+    "name": "Sharun",
+    "dob": "04-04-1989",
+    "mobile": 9654455880,
+    "email": "sharun@gmail.com",
+    "hobby": "Optional",
+    "shopId": "S008",
+    "role": "user",
+    "id": 6
+  },
+  {
+    "name": "Max",
+    "dob": "04-04-1989",
+    "mobile": 9654455880,
+    "email": "max@gmail.com",
+    "hobby": "Optional",
+    "shopId": "S008",
+    "role": "user",
+    "id": 7
+  },
+  {
+    "name": "anisha",
+    "dob": "04-04-1989",
+    "mobile": 9654455880,
+    "email": "anisha@gmail.com",
+    "hobby": "Optional",
+    "shopId": "S008",
+    "role": "user",
+    "id": 8
+  },
+  {
+    "name": "Max",
+    "dob": "04-04-1989",
+    "mobile": 9654455880,
+    "email": "joi@gmail.com",
+    "hobby": "Optional",
+    "shopId": "S008",
+    "role": "user",
+    "id": 9
+  },
+  {
+    "name": "Max",
+    "dob": "04-04-1989",
+    "mobile": 9654455880,
+    "email": "jo@gmail.com",
+    "hobby": "Optional",
+    "shopId": "S008",
+    "role": "user",
+    "id": 10
+  },
+  {
+    "name": "Sam",
+    "dob": "04-04-1989",
+    "mobile": 9654455880,
+    "email": "Sam@gmail.com",
+    "hobby": "Optional",
+    "shopId": "S008",
+    "role": "user",
+    "id": 11
+  },
+  {
+    "name": "Mohan",
+    "dob": "04-04-1989",
+    "mobile": 9654455880,
+    "email": "mohan@gmail.com",
+    "hobby": "Optional",
+    "shopId": "S008",
+    "role": "user",
+    "id": 12
+  }
+]
