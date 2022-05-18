@@ -3,9 +3,18 @@ const apiRoutes = require("./src/routes/routes");
 const bodyParser = require("body-parser");
 const app = express();
 const port = process.env.PORT || 3005;
+const cors = require('cors');
 
 app.use(
     bodyParser.json()
+);
+
+app.use(
+	cors({
+		origin: '*',
+		methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+		allowedHeaders: '*',
+	})
 );
 
 app.use("/api/v1", apiRoutes);

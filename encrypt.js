@@ -2,8 +2,8 @@ var aes256 = require('aes256');
 
 var key = 'HJlsie132334';
 var plaintext = {
-    email: "mohammeds1@clouddestinations.com",
-    password: "Test@12"
+    email: "mohammeds@clouddestinations.com",
+    password: "Test@123"
 };
 
 var encryptedPlainText = aes256.encrypt(key, JSON.stringify(plaintext));

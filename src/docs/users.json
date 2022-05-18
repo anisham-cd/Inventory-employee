@@ -5,6 +5,7 @@
     "phoneNumber": "9700143502",
     "email": "mohammeds@clouddestinations.com",
     "password": "$2a$10$U3cWhZsQIWMkmJ6lm25f7eYjqnfcLeIEkZCCpytHP4UNaBR1AOB6C",
-    "hobby": "Tech"
+    "hobby": "Tech",
+    "role": "admin"
   }
 ]
